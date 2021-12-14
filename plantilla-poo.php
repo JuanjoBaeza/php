@@ -8,11 +8,11 @@
 
  class BlogAutores {
 
-    // Declaramos aqui variables de la clase fuera del constructor, no obligatorias en la creación del objeto
+    // Declaramos aqui variables de la clase fuera del constructor, no obligatorias en la creación del objeto //
 
     protected $type = "freelancer";
 
-    // Inicializamos el constructor y variables, obligatorio pasarlas al crear el objeto e instanciar la clase
+    // Inicializamos el constructor y variables, obligatorio pasarlas al crear el objeto e instanciar la clase //
 
     public function __construct($nombre_autor, $numero_articulos){
         
@@ -45,10 +45,14 @@
 
 }
 
+// Creamos el objeto instanciando la clase a la vez que pasamos valores al constructor
+
 $autor = new BlogAutores("Pedro", 10);
+
+// Llamada a los distintos metodos de la clase
 
 $autor->mostrar_articulos();
 $autor->actualiza(30);
 $autor->mostrar_articulos();
 
- ?>
+?>
