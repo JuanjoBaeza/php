@@ -1,4 +1,4 @@
-Constructor, Clases y visibilidad
+// Constructor, Clases y visibilidad
 
 <?php 
 // Definimos la clase
@@ -73,7 +73,6 @@ echo $coche2->mostrarInfo();
  
 </body>
 </html>
-
 
 ------------------------------------------------------------------------------------------
 
