@@ -1,8 +1,18 @@
 <?php
 
+// 3 tipos de metodos en POO PHP:
+//
+// Private   -> Accesible solamente desde la clase que lo definió
+// Public    -> Accesible desde dentro y fuera de la clase
+// Protected -> Accesible solo desde dentro de la clase
+
  class BlogAutores {
 
+    // Declaramos aqui variables de la clase fuera del constructor, no obligatorias en la creación del objeto
+
     protected $type = "freelancer";
+
+    // Inicializamos el constructor y variables, obligatorio pasarlas al crear el objeto e instanciar la clase
 
     public function __construct($nombre_autor, $numero_articulos){
         
