@@ -35,10 +35,10 @@
 
 }
 
- $autor = new BlogAutores("Pedro", 10);
+$autor = new BlogAutores("Pedro", 10);
 
- $autor->mostrar_articulos();
- $autor->actualiza(30);
- $autor->mostrar_articulos();
+$autor->mostrar_articulos();
+$autor->actualiza(30);
+$autor->mostrar_articulos();
 
  ?>
