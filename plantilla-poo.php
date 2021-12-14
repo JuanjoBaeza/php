@@ -32,7 +32,7 @@
 
     private function actualiza_articulos($numero_articulos){
 
-        // Este metodo actualiza el numero de articulos //
+        // Este metodo privado actualiza el numero de articulos, es llamado desde un metodo publico //
 
         echo "Metodo actualizar articulos";
         $this->numero_articulos = $numero_articulos;
